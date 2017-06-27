@@ -20,12 +20,8 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git)
 
 # User configuration
-
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
-
-# Plugins 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Custom
 git config --global user.name "Furkan Yilmaz"
@@ -33,7 +29,7 @@ git config --global user.email "mufuyil@gmail.com"
 
 # Alias's
 alias ls='ls -GFh'
-alias rm='rm -i'
+alias rm='rm'
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir="mkdir -pv"
@@ -70,3 +66,7 @@ function makezip() { zip -r "${1%%/}.zip" "$1" ; }
 start_docker() {
     . "/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh"
 }
+
+# Plugins
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
