@@ -48,20 +48,20 @@ alias du='du -kh'    # Makes a more readable output.
 alias df='df -kTh'
 
 # rbenv path
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/shims:$PATH"
+# eval "$(rbenv init -)"
+# export PATH="$HOME/.rbenv/shims:$PATH"
 
 # postgres env path
-export PATH="/Library/PostgreSQL/9.4/bin::$PATH"
+# export PATH="/Library/PostgreSQL/9.4/bin::$PATH"
 
 # golang env path
-export GOPATH="$HOME/Documents/Programming/go/"
-export PATH="$HOME/Documents/Programming/go/bin:$GOPATH:$PATH"
+# export GOPATH="$HOME/Documents/Programming/go/"
+# export PATH="$HOME/Documents/Programming/go/bin:$GOPATH:$PATH"
 
 # To start docker in a given shell, run start_docker.
-start_docker() {
-    . "/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh"
-}
+# start_docker() {
+#     . "/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh"
+# }
 
 # Creates an archive (*.tar.gz) from given directory.
 function maketar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }

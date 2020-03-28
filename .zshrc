@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/furkan/.oh-my-zsh
+export ZSH=/Users/kan/.oh-my-zsh
 
 # Theme
 ZSH_THEME="robbyrussell"
@@ -24,8 +24,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
 # Custom
-git config --global user.name "Furkan Yilmaz"
-git config --global user.email "mufuyil@gmail.com"
+git config --global user.name "Kan Yilmaz"
+git config --global user.email "kan.yilmaz.me@gmail.com"
 
 # Alias's
 alias ls='ls -GFh'
@@ -63,9 +63,9 @@ function makezip() { zip -r "${1%%/}.zip" "$1" ; }
 # export PATH="$HOME/Documents/Programming/go/bin:$GOPATH:$PATH"
 
 # To start docker in a given shell, run start_docker.
-start_docker() {
-    . "/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh"
-}
+# start_docker() {
+#     . "/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh"
+# }
 
 # Plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
