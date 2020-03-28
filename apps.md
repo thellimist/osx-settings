@@ -1,26 +1,34 @@
 Mac Apps to download
 
 # Must
-1. Chrome
-1. Dashlane
-1. Spectacles
-1. Alfred
-1. Lightshot
-1. VLC
+- Chrome
+- Dashlane
+- Spectacles
+- Alfred
+- Lightshot
+- VLC
 
 # Not Must
-1. Notion
-1. WorkFlowy
-1. Tandem
-1. Slack
-1. Discord
-1. Steam
-1. Spotify
+- Notion
+- WorkFlowy
+- Tandem
+- Slack
+- Discord
+- Steam
+- Spotify
 
-# Developmentt
-1. Sublime
-1. iTerm
-1. Insomnia
-1. PSequel 
-1. Docker
-1. Source Tree
+# Development
+- Sublime
+- iTerm
+- Insomnia
+- PSequel 
+- Docker
+- Source Tree
+
+# Chrome Plugins
+- [AdBlock](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
+- Dashlane
+- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
+- [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
+- [Reddit Enchanment Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb)
+- [Universal Bypass](https://chrome.google.com/webstore/detail/universal-bypass/aihomhdbhpnpmcnnbckjjcebjoikpihj?hl=en)
