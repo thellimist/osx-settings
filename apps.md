@@ -5,17 +5,18 @@ Mac Apps to download
 - Dashlane
 - Spectacles
 - Alfred
-- Lightshot
+- Zappy (alternative Lightshot) 
 - VLC
+- There
 
 # Not Must
 - Notion
-- WorkFlowy
 - Tandem
 - Slack
 - Discord
 - Steam
 - Spotify
+- Loom
 
 # Development
 - Sublime
