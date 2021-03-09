@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/kan/.oh-my-zsh
+export ZSH=/Users/kanyilmaz/.oh-my-zsh
 
 # Theme
 ZSH_THEME="robbyrussell"
@@ -40,7 +40,7 @@ alias ..="cd .."
 alias du='du -kh'    # Makes a more readable output.
 alias df='df -kTh'
 # alias cdgo='cd $GOPATH'
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+# alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # Pretty-print of some PATH variables:
 alias path='echo -e ${PATH//:/\\n}'
@@ -68,5 +68,4 @@ function makezip() { zip -r "${1%%/}.zip" "$1" ; }
 # }
 
 # Plugins
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+plugins=( zsh-autosuggestions, zsh-syntax-highlighting)
