@@ -7,19 +7,19 @@ Mac Apps to download
 - Alfred
 - Zappy (alternative Lightshot) 
 - VLC
-- There
 
 # Not Must
 - Notion
-- Tandem
+- Gather
 - Slack
 - Discord
 - Steam
 - Spotify
 - Loom
+- There
 
 # Development
-- Sublime
+- Cursor
 - iTerm
 - Insomnia
 - PSequel 
