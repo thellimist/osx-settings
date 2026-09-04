@@ -45,6 +45,25 @@ alias df='df -kTh'
 # Pretty-print of some PATH variables:
 alias path='echo -e ${PATH//:/\\n}'
 
+# Opt-in shortcuts. --yolo disables permission checks and sandboxing.
+function codex() {
+    if [[ "${1:-}" == "--yolo" ]]; then
+        shift
+        command codex --dangerously-bypass-approvals-and-sandbox "$@"
+        return
+    fi
+    command codex "$@"
+}
+
+function claude() {
+    if [[ "${1:-}" == "--yolo" ]]; then
+        shift
+        command claude --dangerously-skip-permissions "$@"
+        return
+    fi
+    command claude "$@"
+}
+
 # Creates an archive (*.tar.gz) from given directory.
 function maketar() { tar cvzf "${1%%/}.tar.gz"  "${1%%/}/"; }
 
